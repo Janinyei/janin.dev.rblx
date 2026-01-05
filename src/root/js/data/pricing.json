@@ -1,0 +1,53 @@
+{
+  "policy": {
+    "title": "Pricing & Payment Policy *PLEASE READ*",
+    "details": [
+    "LONG TERM: For most part I do not do long term. If the offer were promising, I would consider it.",
+      "50% upfront payment required for commissions over $50 / 15k Robux.",
+      "Refunds are not provided once the final file has been delivered.",
+      "USD payments are accepted via PayPal or CashApp",
+      "During the process, I will send progress in intervals, just to establish integrity on both parties"
+    ]
+  },
+  "systems": [
+    {
+      "name": "Combat System",
+      "description": "Combat Melee System. Can range from weapons to whatever a player can fight with.",
+      "robux": "15,000+",
+      "usd": "$50.00+"
+    },
+    {
+      "name": "Custom Parkour Engine",
+      "description": "State-Driven Parkour System",
+      "robux": "50,000+",
+      "usd": "$185+"
+    },
+    {
+      "name": "Basic UI Framework",
+      "description": "Clean, responsive UI with basic tweening and signal events.",
+      "robux": "5,000",
+      "usd": "$45.00"
+    },
+    
+      {
+      "name": "Combat Moveset",
+      "description": "Any kind of complex combat moveset",
+      "robux": "50,000+",
+      "usd": "$150+"
+    },
+
+      {
+      "name": "Basic Movement Mechanics",
+      "description": "Any kind of basic mechanics which don't require full integration to a larger system",
+      "robux": "2,000",
+      "usd": "$15"
+    },
+    {
+      "name": "More?",
+      "description": "i can obviously do more, but this is just to give an idea of how i deal with pricing. Negotations can always be made.",
+      "robux": "--",
+      "usd": "--"
+    }
+
+  ]
+}

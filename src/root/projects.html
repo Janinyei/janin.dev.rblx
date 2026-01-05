@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projects</title>
+
+  <!--- Link stylesheets here-->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/components/navbar.css" />
+  <link rel="stylesheet" href="css/components/buttons.css" />
+  <link rel="stylesheet" href="css/components/glow.css" />
+  <link rel="stylesheet" href="css/components/footer.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/components/modal.css" />
+</head>
+
+<body>
+  <nav class="navbar" id="global-navbar"></nav>
+
+  <header class="projects">
+    <div class="glow-circle"></div>
+
+    <div class="projects-container"></div>
+
+    <div id="project-modal" class="modal-overlay">
+      <div class="modal-content glass">
+        <button class="close-btn" id="close-modal">&times;</button>
+
+        <div class="modal-layout">
+          <div class="modal-visual">
+            <div id="modal-media-container"></div>
+          </div>
+
+          <div class="modal-details">
+            <h2 id="modal-title"></h2>
+            <div class="modal-tags" id="modal-tags"></div>
+
+            <div class="modal-description-scroll">
+              <h3>Overview</h3>
+              <p id="modal-desc"></p>
+
+            </div>
+
+            <div class="modal-footer" id="modal-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--FOOTER-->
+  <footer class="main-footer" id="main-footer"></footer>
+
+  <script src="js/component-loader.js"></script>
+  <script src="js/projects.js"></script>
+</body>

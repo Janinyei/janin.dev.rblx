@@ -1,0 +1,91 @@
+.pricing-section{
+    padding: 200px 10%;
+}
+
+
+/* Table Styles */
+.table-container {
+    margin-top: 30px;
+    border-radius: 
+    16px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.pricing-table th {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    color: var(--secondary-color); /* Use your blue/accent color */
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.pricing-table td {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    vertical-align: top;
+}
+
+.pricing-table tr:last-child td { border-bottom: none; }
+
+.pricing-table .system-name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.pricing-table .system-desc {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+}
+
+/* Policy Styles */
+.policy-dropdown {
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.policy-dropdown summary {
+    font-weight: bold;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.policy-dropdown ul {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: var(--text-dim);
+}
+
+.policy-dropdown li { margin-bottom: 10px; }
+
+
+.price-wrapper {
+    display: flex;
+    align-items: center; /* Centers icon vertically with the text */
+    gap: 6px;           /* Space between icon and numbers */
+}
+
+.currency-icon {
+    width: 18px;        /* Matches standard font height */
+    height: 18px;
+    object-fit: contain;
+    /* Optional: filter to make it glow slightly or match your theme color */
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.2));
+}
+
+.price-cell {
+    font-family: 'Montserrat', sans-serif; /* A bold font makes prices pop */
+    font-weight: 600;
+    color: #fff;
+}

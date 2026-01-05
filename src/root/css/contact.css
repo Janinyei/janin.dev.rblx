@@ -1,0 +1,90 @@
+
+.contact-section{
+    height: 100vh;
+    padding-top:100px;
+}
+.section-title{
+    display:block;
+    text-align: center;
+    padding-top:100px;
+}
+.socials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.social-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    width: 220px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none; /* Removes link underline */
+    color: white;
+    transition: all 0.3s ease;
+      cursor: pointer;
+    position: relative;
+}
+
+/* The "Click to Copy" hint */
+.copy-badge {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.65rem;
+    background: var(--secondary-color);
+    color: black;
+    padding: 2px 8px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-weight: bold;
+}
+
+.social-card:hover .copy-badge {
+    opacity: 1;
+}
+
+/* Success glow effect */
+.copied-glow {
+    border-color: var(--secondary-color) !important;
+    box-shadow: 0 0 20px var(--secondary-color) !important;
+    transform: scale(1.05);
+}
+
+.social-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--secondary-color);
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    object-fit: cover;
+}
+
+.social-platform {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+.social-username {
+    font-size: 1.1rem;
+    font-weight: bold;
+    word-break: break-all;
+}

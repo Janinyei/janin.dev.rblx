@@ -1,0 +1,31 @@
+/*primary color buttons */
+.btn-primary {
+    background: var(--secondary-color);
+    color: var(--text-dark);
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    border: solid black 1px;
+}
+
+.btn-primary:hover {
+    transition: 0.3s;
+    color: var(--text-main);
+    border: solid white 1px;
+    box-shadow: 0 0 10px white;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+.btn-glass {
+    background: rgba(255,255,255,0.1);
+   padding: 12px 24px;
+   backdrop-filter: blur(24px);
+   border:solid white 1px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px white;
+   text-shadow: 0 0 10px white;
+}
+
+
+

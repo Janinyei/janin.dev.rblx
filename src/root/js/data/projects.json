@@ -1,0 +1,87 @@
+[
+  {
+    "id": "pursuit",
+    "category": "game",
+    "title": "Pursuit",
+    "banner": "/src/root/assets/images/pursuitthumbnail.png",
+    "description": "Started working on this some time around 2024",
+    "features": [
+      "UI Design & Scripting",
+      "Data Stores",
+      "Parkour",
+      "Round System"
+    ],
+    "details": {
+      "longDescription": "I started this project in 2024, as I really wanted to make a parkour tag game for a while. This project helpled me learn a lot, from monetization to custom physics controls. It's currently on hiatus, but in the future I hope to recreate or improve the current project into something new",
+      "mediaUrl": "",
+      "mediaType": "video"
+    }
+  },
+
+    {
+    "id": "simple-parkour-system",
+   "category": "system",
+    "title": "Basic Parkour System",
+    "banner": "/src/root/assets/images/Simple-Parkour-System.png",
+    "description": "Cool parkour system I used to rework Pursuit's parkour system",
+    "features": [
+      "Parkour",
+      "Movement System"
+    ],
+    "details": {
+      "youtubeId": "EgDYXSCTack",
+      "mediaType": "youtube"
+    }
+  },
+
+  {
+    "id": "jujutsu-unleashed",
+    "category": "game",
+    "banner": "https://img.youtube.com/vi/_-Og404qsRY/hqdefault.jpg",
+    "title": "Jujutsu Unleashed",
+    "description": "Old Jujutsu Kaisen based game I made. Discontinued. ",
+    "features": ["Combat System", "Movesets", "VFX", "Combat NPCs"],
+    "details": {
+
+      "mediaType":"youtube",
+      "youtubeId": "_-Og404qsRY",
+      "longDescription": "another  project i stopped working on"
+    }
+    
+  },
+
+   {
+    "id": "cafe-ordering",
+    "category": "game",
+    "title": "Cafe Ordering System",
+    "banner": "https://img.youtube.com/vi/M_vnwc-ovDo/hqdefault.jpg",
+    "description": "Started working on this some time around 2024",
+    "features": [
+      "UI Design & Scripting",
+      "Roleplaying Games"
+    ],
+    "details": {
+      "longDescription": "Cool commission I did a while back. Helped me learn with different systems",
+      "youtubeId": "M_vnwc-ovDo",
+      "mediaType": "youtube"
+    }
+  },
+
+     {
+    "id": "combat-sys",
+    "category": "game",
+    "title": "Combat System",
+    "banner": "https://img.youtube.com/vi/Q7_J6aYzLXQ/hqdefault.jpg",
+    "description": "Combat system I did for JJU",
+    "features": [
+      "Combat System"
+    ],
+    "details": {
+      "longDescription": "One of the first combat systems I did back in 2023",
+      "youtubeId": "Q7_J6aYzLXQ",
+      "mediaType": "youtube"
+    }
+  }
+
+  
+]

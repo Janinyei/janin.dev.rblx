@@ -1,0 +1,31 @@
+[
+  {
+    "platform": "Discord",
+    "username": "librium_dev",
+    "type":"copy",
+"copyValue": "librium_dev",
+    "icon": "assets/images/logo.png"
+  },
+  {
+    "platform": "Roblox",
+    "username": "@libriumdev",
+    "type":"link",
+    "link": "https://www.roblox.com/users/88302426/profile",
+    "icon": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-7636E984A39AE07766ACDF52CB725D17-Png/150/150/AvatarHeadshot/Webp/noFilter"
+  },
+  {
+    "platform": "Twitter / X",
+    "username": "@janin_dev",
+    "link": "https://x.com/janin_dev",
+    "icon": "https://pbs.twimg.com/profile_images/1797782166287314945/5Ykvqtq8_400x400.jpg",
+     "type":"link"
+  },
+
+    {
+    "platform": "TikTok",
+    "username": "@janin_dev",
+     "type":"link",
+    "link": "https://www.tiktok.com/@janin.dev",
+    "icon": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/ba09d4c220be04daa9ac6de8c0e83056~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=6f3a7095&x-expires=1767747600&x-signature=5qr0Duwuo7w017JLXZaj2d58wtk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8"
+  }
+]

@@ -1,0 +1,24 @@
+:root {
+    --bg-primary: #060505;
+    --bg-secondary: #101010;
+    --text-main: #ffffff;
+    --text-dim: #c5bacf;
+    --text-dark: #2c2c2c;
+
+    --secondary-color: #79c3ff;
+    --tertiary-color: rgb(108, 106, 106);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-main);
+    font-family:'Segoe UI', sans-serif;
+    overflow-x:hidden;
+}

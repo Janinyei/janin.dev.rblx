@@ -1,0 +1,142 @@
+.projects{
+    position: relative;
+    padding: 10% 8%;
+    width: 100vw;
+    background: var(--bg-secondary);
+    
+
+}
+
+.projects-container{
+display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); /* Defines flexible, responsive columns */
+ align-items: start;
+ gap: 25px;
+
+}
+
+
+
+
+
+.project-card{
+    background: rgba(255, 255, 255, 0.03); /* Extremely subtle white tint */
+    backdrop-filter: blur(12px);            /* This creates the frosted effect */
+    -webkit-backdrop-filter: blur(12px);    /* Support for Safari */
+    
+    /* The "Edge" */
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 16px;
+    
+    /* Spacing and Layout */
+    overflow:hidden;
+    position: relative;
+    flex-direction: column;
+    transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+    
+    max-width: 400px;
+    /* Keep your existing glassmorphic styles */
+
+    display: flex;        /* Change from inline-block to flex */
+    flex-direction: column;
+    height: auto;         /* Allow height to be dynamic */
+    width: 100%;
+
+    /* Shadow to give it depth */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    width: 100%;
+}
+
+.project-card:hover {
+  /*  transform: translateY(-5px);*/
+    border: 1px solid var(--secondary-color); /* Brightens the edge on hover */
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 1px 30px 0 rgba(255, 255, 255, 0.03);
+}
+
+.project-skills {
+
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      flex-wrap: wrap;
+
+
+}
+
+.project-skills span{
+ 
+}
+
+.project-skill-frame {
+   padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 0.9rem;
+}
+
+.project-banner {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.project-banner img {
+    width: 100%;
+    height: 100%;
+    /* This is the key: it fills the space without distortion */
+    object-fit: cover; 
+    /* This ensures the 'action' (the middle of your screenshot) stays centered */
+    object-position: center; 
+    display: block;
+}
+
+
+
+.project-body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    
+}
+
+.project-body-section{
+    /*  padding-bottom: 10px;*/
+}
+
+.section-divider{
+    display: block;
+    width: 100%;
+    height:1px;
+    background-color: rgba(255, 255, 255, 0.05);
+
+}
+.project-body-section h3{
+    width: fit-content;
+    margin-bottom:8px;
+}
+
+.project-body-section p{
+    color: var(--text-dim);
+    
+}
+
+
+
+.view-details-btn {
+    background: var(--secondary-color);
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 50%;
+}
