@@ -3,7 +3,7 @@
     "id": "pursuit",
     "category": "game",
     "title": "Pursuit",
-    "banner": "/src/root/assets/images/pursuitthumbnail.png",
+    "banner": "assets/images/pursuitthumbnail.png",
     "description": "Started working on this some time around 2024",
     "features": [
       "UI Design & Scripting",
@@ -22,7 +22,7 @@
     "id": "simple-parkour-system",
    "category": "system",
     "title": "Basic Parkour System",
-    "banner": "/src/root/assets/images/Simple-Parkour-System.png",
+    "banner": "assets/images/Simple-Parkour-System.png",
     "description": "Cool parkour system I used to rework Pursuit's parkour system",
     "features": [
       "Parkour",
